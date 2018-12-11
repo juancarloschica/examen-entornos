@@ -10,11 +10,13 @@ public class Areas {
 
 	public static void main(String[] args) {
 		
+		/** Método que llama al menú */
 		Menu.opcion();
 		
 		Scanner sc = new Scanner(System.in);
 		int opcion = sc.nextInt();
 		
+		/** Condición para calcular en área del triángulo */
 		if (opcion == 1 && opcion <= 1) {
 			System.out.println("Introduzca la base del triángulo:");
 			int baseTri = sc.nextInt();
