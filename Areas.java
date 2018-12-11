@@ -25,6 +25,7 @@ public class Areas {
 			System.out.println("El área del triángulo es: " + Calcular.areaTriangulo(baseTri, alturaTri));
 		}
 		
+		/** Condición para calcular el área del rectángulo */
 		else if (opcion == 2) {
 			System.out.println("Introduzca la base del rectángulo:");
 			int baseRec = sc.nextInt();
@@ -35,6 +36,7 @@ public class Areas {
 			}
 		}
 		
+		/** Condición para calcular el área del trapecio */
 		else if (opcion == 3) {
 			System.out.println("Introduzca la primera base:");
 			int baseTraA = sc.nextInt();
